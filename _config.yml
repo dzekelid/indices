@@ -4,7 +4,7 @@ url: indices.streamdata.gallery
 tag: Indices
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery
+github_user: streamdata-gallery-topics
 github_repo: indices
 github_branch: master
 collections:
