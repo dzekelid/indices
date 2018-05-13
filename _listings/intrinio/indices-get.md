@@ -1,14 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Intrinio
-  description: Through our Intrinio Data Marketplace, we offer a wide selection of
-    financial data feeds sourced by our own proprietary processes as well as from
-    many data vendors. The primary application of the Intrinio API is for use in third-party
-    applications and integrations or for end-users utilizing the Excel add-in and
-    Google Sheets add-on. The Intrinio API uses HTTPS verbs and a RESTful endpoint
-    structure, which makes it easy to request data from Intrinio. Basic Authentication
-    is administered over HTTPS. Responses are delivered in JSON format.
+  title: Intrinio API Index Master
+  description: 'Returns indices list and information for all indices covered by Intrinio.
+    There are three distinct types of indices: Stock Market, SIC (Sector &amp; Industry),
+    and Economic.  You can view the Stock Market Indices Master, SIC Indices Master,
+    and the Economic Indices Master.'
   version: 1.0.0
 host: api.intrinio.com
 basePath: /
