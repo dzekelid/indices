@@ -30,30 +30,30 @@ paths:
       parameters:
       - in: query
         name: identifier
-        description: ' the Intrinio symbol associated with the index: '
+        description: 'the Intrinio symbol associated with the index:'
         type: string
       - in: query
         name: order
-        description: ' returns the results in the given order: popularity | symbol'
+        description: 'returns the results in the given order: popularity | symbol'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: query
-        description: ' a string query search of index name or symbol with the returned
-          results being the relevant securities in compacted list format'
+        description: a string query search of index name or symbol with the returned
+          results being the relevant securities in compacted list format
         type: string
       - in: query
         name: type
-        description: ' the type of indices specified: stock_market | economic | sic'
+        description: 'the type of indices specified: stock_market | economic | sic'
         type: string
       responses:
         200:

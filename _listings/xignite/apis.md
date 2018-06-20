@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Indices
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,30 +18,30 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindices.xignite.com/xglobalindices.json/XigniteGlobalIndices//GetDelayedIndicesValue
-  tags: Delayed, Indices, Value
+  tags: Market Data,Delayed, Indices, Value
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/getdelayedindicesvalue-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/getdelayedindicesvalue-get-openapi.md
 - name: Xignite Global Indices List Indices By Index Group
   x-api-slug: xignite-global-indices
   description: List indices by index group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindices.xignite.com/xglobalindices.json/XigniteGlobalIndices//ListIndicesByIndexGroup
-  tags: List, Indices, Index, Group
+  tags: Market Data,List, Indices, Index, Group
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/listindicesbyindexgroup-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/listindicesbyindexgroup-get-openapi.md
 - name: Xignite Global Indices Search Indices By Name
   x-api-slug: xignite-global-indices
   description: Search indices by name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindices.xignite.com/xglobalindices.json/XigniteGlobalIndices//SearchIndicesByName
-  tags: Search, Indices, Name
+  tags: Market Data,Search, Indices, Name
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/searchindicesbyname-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/searchindicesbyname-get-openapi.md
 - name: Xignite Global Indices
   x-api-slug: xignite-global-indices
   description: Financial market data on-demand. Xignite financial Web services help
@@ -59,40 +59,40 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical//GetLastClosingIndicesValue
-  tags: Last, Closing, Indices, Value
+  tags: Market Data,Last, Closing, Indices, Value
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/getlastclosingindicesvalue-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/getlastclosingindicesvalue-get-openapi.md
 - name: Xignite Global Indices Historical Get Historical Indices Value
   x-api-slug: xignite-global-indices-historical
   description: Get historical indices value.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical//GetHistoricalIndicesValue
-  tags: Historical, Indices, Value
+  tags: Market Data,Historical, Indices, Value
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/gethistoricalindicesvalue-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/gethistoricalindicesvalue-get-openapi.md
 - name: Xignite Global Indices Historical List Indices By Index Group
   x-api-slug: xignite-global-indices-historical
   description: List indices by index group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical//ListIndicesByIndexGroup
-  tags: List, Indices, Index, Group
+  tags: Market Data,List, Indices, Index, Group
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/listindicesbyindexgroup-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/listindicesbyindexgroup-get-openapi.md
 - name: Xignite Global Indices Historical Search Indices By Name
   x-api-slug: xignite-global-indices-historical
   description: Search indices by name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical//SearchIndicesByName
-  tags: Search, Indices, Name
+  tags: Market Data,Search, Indices, Name
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/searchindicesbyname-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/searchindicesbyname-get-openapi.md
 - name: Xignite Global Indices Historical
   x-api-slug: xignite-global-indices-historical
   description: Financial market data on-demand. Xignite financial Web services help
@@ -110,30 +110,30 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindicesrealtime.xignite.com/xglobalindicesrealtime.json/XigniteGlobalIndicesRealTime//GetRealTimeIndicesValue
-  tags: Real, Time, Indices, Value
+  tags: Market Data,Real, Time, Indices, Value
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/getrealtimeindicesvalue-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/getrealtimeindicesvalue-get-openapi.md
 - name: Xignite Global Indices Real Time List Indices By Index Group
   x-api-slug: xignite-global-indices-real-time
   description: List indices by index group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindicesrealtime.xignite.com/xglobalindicesrealtime.json/XigniteGlobalIndicesRealTime//ListIndicesByIndexGroup
-  tags: List, Indices, Index, Group
+  tags: Market Data,List, Indices, Index, Group
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/listindicesbyindexgroup-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/listindicesbyindexgroup-get-openapi.md
 - name: Xignite Global Indices Real Time Search Indices By Name
   x-api-slug: xignite-global-indices-real-time
   description: Search indices by name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindicesrealtime.xignite.com/xglobalindicesrealtime.json/XigniteGlobalIndicesRealTime//SearchIndicesByName
-  tags: Search, Indices, Name
+  tags: Market Data,Search, Indices, Name
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/searchindicesbyname-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/searchindicesbyname-get-openapi.md
 - name: Xignite Global Indices Real Time
   x-api-slug: xignite-global-indices-real-time
   description: Financial market data on-demand. Xignite financial Web services help
@@ -146,7 +146,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -206,6 +206,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []
