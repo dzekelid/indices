@@ -1,14 +1,16 @@
 ---
 name: Intrinio
 x-slug: intrinio
-description: Market for financial data APIs and analytics applications built with
-  those data feeds. Affordable, easy to access financial data for developers and investors
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+description: Intelligent Data, On Demand. The financial data platform for developers,
+  investors, students, and educators, with over 200 feeds including real-time, intraday,
+  EOD, and international financial data available via REST API, WebSocket, CSV, Excel,
+  and Goo...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
 x-kinRank: "8"
-x-alexaRank: "321628"
+x-alexaRank: "303229"
 tags: Indices
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,7 +20,7 @@ apis:
     There are three distinct types of indices: Stock Market, SIC (Sector &amp; Industry),
     and Economic.  You can view the Stock Market Indices Master, SIC Indices Master,
     and the Economic Indices Master.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com////indices
   tags: Market Data,Indices
@@ -27,10 +29,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/indices/master/_listings/intrinio/indices-get-openapi.md
 - name: Intrinio API
   x-api-slug: intrinio-api
-  description: Market for financial data APIs and analytics applications built with
-    those data feeds. Affordable, easy to access financial data for developers and
-    investors
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  description: Intelligent Data, On Demand. The financial data platform for developers,
+    investors, students, and educators, with over 200 feeds including real-time, intraday,
+    EOD, and international financial data available via REST API, WebSocket, CSV,
+    Excel, and Goo...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com//
   tags: Indices
@@ -60,6 +63,8 @@ x-common:
   url: admin@intrinio.com
 - type: x-email
   url: support@intrinio.com
+- type: x-email
+  url: acarpenter@intrinio.com
 - type: x-login
   url: https://intrinio.com/login
 - type: x-partners
