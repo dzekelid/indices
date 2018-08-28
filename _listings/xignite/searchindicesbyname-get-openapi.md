@@ -15,12 +15,12 @@ produces:
 consumes:
 - application/json
 paths:
-  /GetRealTimeIndicesValue:
+  /GetDelayedIndicesValue:
     get:
-      summary: Get Real Time Indices Value
-      description: Get real time indices value.
-      operationId: GetRealTimeIndicesValue
-      x-api-path-slug: getrealtimeindicesvalue-get
+      summary: Get Delayed Indices Value
+      description: Get delayed indices value.
+      operationId: GetDelayedIndicesValue
+      x-api-path-slug: getdelayedindicesvalue-get
       parameters:
       - in: body
         name: body
@@ -31,8 +31,7 @@ paths:
           description: OK
       tags:
       - Market Data
-      - Real
-      - Time
+      - Delayed
       - Indices
       - Value
   /ListIndicesByIndexGroup:
@@ -74,6 +73,65 @@ paths:
       - Search
       - Indices
       - Name
+  /GetLastClosingIndicesValue:
+    get:
+      summary: Get Last Closing Indices Value
+      description: Get last closing indices value.
+      operationId: GetLastClosingIndicesValue
+      x-api-path-slug: getlastclosingindicesvalue-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Last
+      - Closing
+      - Indices
+      - Value
+  /GetHistoricalIndicesValue:
+    get:
+      summary: Get Historical Indices Value
+      description: Get historical indices value.
+      operationId: GetHistoricalIndicesValue
+      x-api-path-slug: gethistoricalindicesvalue-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Historical
+      - Indices
+      - Value
+  /GetRealTimeIndicesValue:
+    get:
+      summary: Get Real Time Indices Value
+      description: Get real time indices value.
+      operationId: GetRealTimeIndicesValue
+      x-api-path-slug: getrealtimeindicesvalue-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Real
+      - Time
+      - Indices
+      - Value
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

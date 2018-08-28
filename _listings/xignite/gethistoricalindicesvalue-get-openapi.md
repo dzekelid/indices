@@ -15,6 +15,64 @@ produces:
 consumes:
 - application/json
 paths:
+  /GetDelayedIndicesValue:
+    get:
+      summary: Get Delayed Indices Value
+      description: Get delayed indices value.
+      operationId: GetDelayedIndicesValue
+      x-api-path-slug: getdelayedindicesvalue-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Delayed
+      - Indices
+      - Value
+  /ListIndicesByIndexGroup:
+    get:
+      summary: List Indices By Index Group
+      description: List indices by index group.
+      operationId: ListIndicesByIndexGroup
+      x-api-path-slug: listindicesbyindexgroup-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - List
+      - Indices
+      - Index
+      - Group
+  /SearchIndicesByName:
+    get:
+      summary: Search Indices By Name
+      description: Search indices by name.
+      operationId: SearchIndicesByName
+      x-api-path-slug: searchindicesbyname-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Search
+      - Indices
+      - Name
   /GetLastClosingIndicesValue:
     get:
       summary: Get Last Closing Indices Value

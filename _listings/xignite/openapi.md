@@ -1,13 +1,12 @@
----
 swagger: "2.0"
 x-collection-name: Xignite
 x-complete: 1
 info:
-  title: Xignite Global Indices Real Time
-  description: this-web-service-provides-global-real-time-information-for-u-s--and-international-indices-
+  title: Xignite VWAP
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
   version: 1.0.0
-host: globalindicesrealtime.xignite.com
-basePath: xglobalindicesrealtime.json/XigniteGlobalIndicesRealTime
+host: www.xignite.com
+basePath: xVWAP.json/XigniteVWAP
 schemes:
 - http
 produces:
@@ -15,12 +14,12 @@ produces:
 consumes:
 - application/json
 paths:
-  /GetRealTimeIndicesValue:
+  /GetDelayedIndicesValue:
     get:
-      summary: Get Real Time Indices Value
-      description: Get real time indices value.
-      operationId: GetRealTimeIndicesValue
-      x-api-path-slug: getrealtimeindicesvalue-get
+      summary: Get Delayed Indices Value
+      description: Get delayed indices value.
+      operationId: GetDelayedIndicesValue
+      x-api-path-slug: getdelayedindicesvalue-get
       parameters:
       - in: body
         name: body
@@ -31,8 +30,7 @@ paths:
           description: OK
       tags:
       - Market Data
-      - Real
-      - Time
+      - Delayed
       - Indices
       - Value
   /ListIndicesByIndexGroup:
@@ -74,4 +72,62 @@ paths:
       - Search
       - Indices
       - Name
----
+  /GetLastClosingIndicesValue:
+    get:
+      summary: Get Last Closing Indices Value
+      description: Get last closing indices value.
+      operationId: GetLastClosingIndicesValue
+      x-api-path-slug: getlastclosingindicesvalue-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Last
+      - Closing
+      - Indices
+      - Value
+  /GetHistoricalIndicesValue:
+    get:
+      summary: Get Historical Indices Value
+      description: Get historical indices value.
+      operationId: GetHistoricalIndicesValue
+      x-api-path-slug: gethistoricalindicesvalue-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Historical
+      - Indices
+      - Value
+  /GetRealTimeIndicesValue:
+    get:
+      summary: Get Real Time Indices Value
+      description: Get real time indices value.
+      operationId: GetRealTimeIndicesValue
+      x-api-path-slug: getrealtimeindicesvalue-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Real
+      - Time
+      - Indices
+      - Value
